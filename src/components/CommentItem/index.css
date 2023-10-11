@@ -1,0 +1,99 @@
+.comment-list-items-container {
+    list-style-type: none;
+    border-bottom: 2px solid #cbd2d9;
+  }
+  
+  .name-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .first-letter {
+    background-color: #0b69ff;
+    color: #ffffff;
+    font-family: 'roboto';
+    font-size: 20px;
+    border: 0;
+    border-radius: 15px;
+    padding: 2px 10px 3px 10px;
+    margin-right: 5px;
+  }
+  
+  .user-name {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 500;
+    color: #1e293b;
+    margin-right: 15px;
+  }
+  
+  .comment-time {
+    font-family: 'Roboto';
+    font-size: 11px;
+    font-weight: 500;
+    color: #cbd2d9;
+  }
+  
+  .user-comment-description {
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: 500;
+    color: #94a3b8;
+    padding-left: 35px;
+    margin: 0;
+  }
+  
+  .images-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .like-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-icons {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .like-img {
+    margin-right: 10px;
+  }
+  
+  .like-text {
+  }
+  
+  .delete-icon {
+  }
+  
+  .amber {
+    background-color: #f59e0b;
+  }
+  
+  .blue {
+    background-color: #0b69ff;
+  }
+  
+  .orange {
+    background-color: #f97316;
+  }
+  
+  .emerald {
+    background-color: #10b981;
+  }
+  
+  .teal {
+    background-color: #14b8a6;
+  }
+  
+  .red {
+    background-color: #b91c1c;
+  }
+  
+  .light-blue {
+    background-color: #0ea5e9;
+  }

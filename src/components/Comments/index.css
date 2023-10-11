@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .app-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .comment-container {
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  @media screen and (min-width: 567px) {
+    .comment-container {
+      max-width: 1000px;
+    }
+  }
+  
+  .main-heading {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 500;
+    color: #1e293b;
+  }
+  
+  .order-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media screen and (min-width: 567px) {
+    .order-container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .comment-img {
+    height: 150px;
+    width: 200px;
+  }
+  
+  @media screen and (min-width: 567px) {
+    .comment-img {
+      height: 200px;
+      width: 250px;
+      order: 1;
+    }
+  }
+  
+  .description {
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 500;
+    color: #475569;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media screen and (min-width: 567px) {
+    .form-container {
+      width: 40%;
+    }
+  }
+  
+  .comment-input {
+    height: 35px;
+    width: 90%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #475569;
+    outline: none;
+    border: 1px solid #cbd2d9;
+    border-radius: 3px;
+  }
+  
+  .comment-text {
+    height: 135px;
+    width: 90%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #475569;
+    outline: none;
+    border: 1px solid #cbd2d9;
+    border-radius: 3px;
+  }
+  
+  .add-comment-btn {
+    align-self: flex-start;
+    background-color: #0284c7;
+    color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .horizontal-line {
+    border: 1px solid #cbd2d9;
+  }
+  
+  .comment-list-container {
+    padding: 0;
+  }
+  
+  .comment-counter-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .comment-counter {
+    border: 0;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #0284c7;
+    padding: 2px 7px 2px 7px;
+    margin-right: 5px;
+  }
+  
+  .comment-counter-text {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    color: #475569;
+  }
+  
